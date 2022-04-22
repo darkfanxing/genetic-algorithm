@@ -1,3 +1,4 @@
+
 from cmath import pi
 from numpy import power, sin
 
