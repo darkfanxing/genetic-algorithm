@@ -1,5 +1,5 @@
 # Project Setup
-1. Change Python version to `{ your_python_version }` (like `3.7`) @ `./Pipfile`
+1. Change `python_version` to `{ your_python_version }` (like `3.7`) @ `./Pipfile`
 2. Setup environment
     ```
     rm Pipfile.lock
