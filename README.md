@@ -7,4 +7,4 @@
     pipenv shell
     pipenv install
     ```
-3. open `./main.ipynb` and run all cell
+3. open `./src/main.ipynb` and run all cell
