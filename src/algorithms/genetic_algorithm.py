@@ -1,4 +1,4 @@
-from typing import Callable, Tuple
+from typing import Callable, Tuple, List
 from random import random
 from numpy.random import randint
 
@@ -42,13 +42,13 @@ def mutation(bit_strings, mutation_rate):
 
 def genetic_algorithm(
     function_: Callable,
-    boundaries: list[list[float]],
+    boundaries: List[List[float]],
     number_bit: int,
     number_iteration: int,
     number_population: int,
     cross_rate: float,
     mutation_rate: float
-) -> Tuple[list[int], float, list[float]]:
+) -> Tuple[List[int], float, List[float]]:
     populations = [list(randint(0, 2, number_bit * len(boundaries))) for _ in range(number_population)]
     best_fitness_set = []
     best_fitness = function_(decode_chromosome(boundaries, number_bit, populations[0]))
