@@ -7,5 +7,5 @@
     pipenv shell
     pipenv install
     ```
-3. open file: `./src/genetic_algorithm.ipynb` or `./src/particle_swarm_optimization.ipynb`
-4. run all cell @ opened file
+3. Open file: `./src/genetic_algorithm.ipynb` or `./src/particle_swarm_optimization.ipynb`
+4. Run all cell @ `opened file`
