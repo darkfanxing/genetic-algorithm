@@ -62,8 +62,8 @@ def genetic_algorithm(
             if fitnesses[index] < best_fitness:
                 best_solution = populations[index]
                 best_fitness = fitnesses[index]
-                best_fitness_set.append(fitnesses[index])
-		
+
+        best_fitness_set.append(best_fitness)
         parent_chromosomes = [select(populations, fitnesses) for _ in range(number_population)]
 
         children = []
