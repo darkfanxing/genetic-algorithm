@@ -1,3 +1,12 @@
+# Download Project
+you can use `git clone` command or click `download .zip` @ Code button
+
+`
+git clone https://github.com/darkfanxing/heuristic-algorithm.git
+cd heuristic-algorithm
+`
+
+
 # Project Setup
 1. Change `python_version` to `{ your_python_version }` (like `3.7`) @ `./Pipfile`
 2. Setup environment
