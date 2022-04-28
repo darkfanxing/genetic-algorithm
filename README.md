@@ -1,5 +1,5 @@
 # Download Project
-you can use `git clone` command or click `download .zip` @ Code button
+you can use `git clone` command or click `download .zip` @ Code button this page
 
 `
 git clone https://github.com/darkfanxing/heuristic-algorithm.git
